@@ -1369,6 +1369,7 @@
       if ( !sgMsg || !p )
         return;
 
+      sgMsg = sgMsg.replace(/^-----/gm,"- ----");
       sgMsg = fullTrim(sgMsg);
 
       var label = '';
