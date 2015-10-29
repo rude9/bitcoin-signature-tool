@@ -1379,7 +1379,7 @@
       } else {
         var sgSig = sign_message(p.key, sgMsg, p.compressed, p.addrtype);
         $('#sgSig').val(joinMessage(sgType, p.address, sgMsg, sgSig));
-        label = '(<a href="#verify'+vrPermalink(p.address, sgMsg, sgSig)+'" target=_blank>permalink</a>)';
+        //label = '(<a href="#verify'+vrPermalink(p.address, sgMsg, sgSig)+'" target=_blank>permalink</a>)';
       }
 
       $('#sgLabel').html(label);
@@ -1513,8 +1513,8 @@
 
           // insert link here
           if (vrAddr==addr && p.type!="armory_hex")
-            label = vrAddr +
-              ' (<a href="#verify'+vrPermalink(vrAddr,vrMsg,vrSig)+'" target=_blank>permalink</a>)';
+            //label = vrAddr +
+            //  ' (<a href="#verify'+vrPermalink(vrAddr,vrMsg,vrSig)+'" target=_blank>permalink</a>)';
 
           clone.find('#vrAddrLabel').html(label);
         }
