@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frude9%2Fbitcoin-signature-tool.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frude9%2Fbitcoin-signature-tool?ref=badge_shield)
+
 Bitcoin Signature Tool
 ======================
 
@@ -9,3 +11,7 @@ Features:
 * Sign and verify documents containing nested Bitcoin signatures. This allows multi-step and multi-party signing and verification to be applied to a document. 
 * Simplified web interface
 * Can be kept offline, stored on media containing sensitive private keys
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frude9%2Fbitcoin-signature-tool.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frude9%2Fbitcoin-signature-tool?ref=badge_large)
